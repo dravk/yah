@@ -3,7 +3,7 @@ local msgbox = messagebox("allah var mi???", "Sorgu Melegi 31",4)
 if msgbox == 6 then
     local msgbox2 = messagebox("afferim", "Sorgu Melegi",0)
     local msgbox4 = messagebox("bartuya isinlancanmi oyun ici", "Oyun",4)
-    if msgbox 4 == 6 then
+    if msgbox4 == 6 then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.HeAnamHe.Character.Head.CFrame
     else
         local msgbox5 = messagebox("annani sikim", "Oyun", 0)
