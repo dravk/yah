@@ -1,3 +1,12 @@
+writefile("sg.png", game:HttpGet("https://i.imgur.com/cJE2q2p.png")) -- Creates a png in the workspace folder
+
+local ScreenGui = Instance.new("ScreenGui", gethui())
+local ImageLabel = Instance.new("ImageLabel", ScreenGui)
+ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+ImageLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+ImageLabel.Size = UDim2.new(0, 1000, 0, 1000)
+ImageLabel.Image = getcustomasset("sg.png")
+
 local msgbox = messagebox("allah var mi???", "Sorgu Melegi 31",4)
 
 if msgbox == 6 then
