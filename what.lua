@@ -16,7 +16,7 @@ if msgbox == 6 then
     local msgbox2 = messagebox("adam adam :D", "Maymun",0)
     local msgbox4 = messagebox("bartuya isinlancan sen?", "Maymun",4)
     if msgbox4 == 6 then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.HeAnamHe.Character.Head.CFrame
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.prisjju.Character.Head.CFrame
     else
         local msgbox5 = messagebox("noahh", "Oyun", 0)
     end
@@ -24,7 +24,7 @@ elseif msgbox == 7 then
     local msgbox3 = messagebox("NOAHHH NIHAHHHHHHHH", "Maymun", 0)
     local msgbox6 = messagebox("bartuya isinlancan sen?", "Maymun",4)
     if msgbox6 == 6 then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.HeAnamHe.Character.Head.CFrame
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.prisjju.Character.Head.CFrame
     else
         local msgbox7 = messagebox("noahh", "Maymun", 0)
     end
