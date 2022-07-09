@@ -1,4 +1,4 @@
-writefile("QMPHHHH.png", game:HttpGet("https://i.imgur.com/8EdtgUr.png")) -- Creates a png in the workspace folder
+writefile("QMPHHHH.png", game:HttpGet("https://i.imgur.com/8EdtgUr.png")) 
 
 local ScreenGui = Instance.new("ScreenGui", game.CoreGui)
 local ImageLabel = Instance.new("ImageLabel", ScreenGui)
